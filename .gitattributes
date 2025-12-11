@@ -1,0 +1,2 @@
+# C# detection
+*.cs linguist-language=C#
