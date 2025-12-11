@@ -1,0 +1,87 @@
+{
+    "OutputTimesPerSecond": 30,
+    "IgnoreUserInputDelay": 0.5,
+    "TimingVerification": false,
+    "CHARACTER DATA": "CHARACTER DATA----------*********-------------------CHARACTER DATA",
+    "CharacterData": {
+        "Height": 3.5,
+        "MovementSpeed": 10.0,
+        "RotationSpeed": 75.0,
+        "DistancePickup": 2,
+        "GoalRotationSpeed": 0
+    },
+    
+    "BLOCK DATA": "BLOCK DATA---------------------*********--------------------BLOCK DATA",
+    
+    "BlockOrder": [1],
+    
+    "Blocks": [
+        {
+            "Block 1": "Enclosure 1",
+            "TrialOrder": [1,2,3]
+        }
+    ],
+    
+    "TRIAL DATA": "TRIAL DATA--------------------*********------------------TRIAL DATA",
+    
+    "Trials": [
+        {
+            "Trial 1": "Practice - Intructions",
+            "Instructional": 1,
+            "FileLocation": "Navigation_Study/Practice.png",
+            "TrialEndKey": "x"
+        },
+        {
+            "Trial 2": "Enclosure 1 - REMOVED TIME LIMIT",
+            "Scene": 9,
+            "Enclosure": 1,
+            "StartPosition": [0, 0],
+            "StartFacing": -2.204,
+            "Rotate": 0,
+            "ActiveGoals": [1],
+            "InvisibleGoals": [],
+            "InactiveGoals": [],
+            "Quota": 1,
+            "LandMarks": [1],
+            "TrialEndKey": "x"
+        },
+        {
+            "Trial 3": "End",
+            "Instructional": 1,
+            "FileLocation": "Tutorial_Instructions/End.png",
+            "TrialTime": -1,
+            "TrialEndKey": "x",
+            "ExitButton": true
+        }
+    ],
+    "GOAL DATA": "GOAL DATA--------------------*********------------------GOAL DATA",
+    "Goals": [
+        {
+            "Goal 1": "Star (Practice)",
+            "Type": "2D",
+            "Object": "Navigation_Study/star.png",
+            "Sound": "collect_points",
+            "Color": "ffffff",
+            "Position": [-26.77747, 2, -31.70052],
+            "Scale": [2.5, 2.5, 2.5]
+        }
+    ],
+    "LANDMARK DATA": "LANDMARK DATA----------*********------------------LANDMARK DATA",
+    "Landmarks": [
+    ],
+
+    "Enclosure DATA": "Enclosure DATA--------------------*********------------------Enclosure DATA",
+    "Enclosures": [
+        {
+            "Enclosure 1": "Enclosure for practice environment",
+            "Sides": 4,
+            "Radius": 10,
+            "WallHeight": 5,
+            "WallColor": "ffffffff",
+            "GroundTileSides": 4,
+            "GroundTileSize": 1.0,
+            "GroundColor": "ffffffff",
+            "Position": [0, 0]
+        }
+    ]
+}

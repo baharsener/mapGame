@@ -1,0 +1,134 @@
+{
+    "OutputTimesPerSecond": 30,
+    "IgnoreUserInputDelay": 0.5,
+    "TimingVerification": false,
+    "CHARACTER DATA": "CHARACTER DATA----------*********-------------------CHARACTER DATA",
+    "CharacterData": {
+        "Height": 3.5,
+        "MovementSpeed": 10.0,
+        "RotationSpeed": 75.0,
+        "DistancePickup": 2,
+        "GoalRotationSpeed": 0
+    },
+    
+    "BLOCK DATA": "BLOCK DATA---------------------*********--------------------BLOCK DATA",
+    
+    "BlockOrder": [1],
+    
+    "Blocks": [
+        {
+            "Block 1": "Enclosure 1",
+            "TrialOrder": [1,2,3,4,5,2,3,6]
+        }
+    ],
+    
+    "TRIAL DATA": "TRIAL DATA--------------------*********------------------TRIAL DATA",
+    
+    "Trials": [
+        {
+            "Trial 1": "No-Map - Instructions  #1 (before encoding)",
+            "Instructional": 1,
+            "FileLocation": "Navigation_Study/Nomap_1.png",
+            "TrialEndKey": "x"
+        },
+        {
+            "Trial 2": "Fixation",
+            "Instructional": 1,
+            "FileLocation": "Navigation_Study/Fixation.png",
+            "TrialTime": 2,
+            "TrialEndKey": "x"
+        },
+        {
+            "Trial 3": "Enclosure 1 - REMOVED TIME LIMIT",
+            "DisplayText": "Find the targets!",
+            "Scene": 7,
+            "Enclosure": 1,
+            "StartPosition": [0, 0],
+            "StartFacing": 0,
+            "Rotate": 0,
+            "ActiveGoals": [],
+            "InvisibleGoals": [],
+            "InactiveGoals": [1,2,3,4,5],
+            "Quota": 5,
+            "LandMarks": [],
+            "TrialEndKey": "x"
+        },
+        {
+            "Trial 4": "Delay",
+            "Instructional": 1,
+            "FileLocation": "Navigation_Study/Delay.png",
+            "TrialTime": 120,
+            "TrialEndKey": "x"
+        },
+        {
+            "Trial 5": "No-Map - Instructions  #2 (after encoding)",
+            "Instructional": 1,
+            "FileLocation": "Navigation_Study/Nomap_2.png",
+            "TrialEndKey": "x"
+        },
+        {
+            "Trial 6": "End",
+            "Instructional": 1,
+            "FileLocation": "Tutorial_Instructions/End.png",
+            "TrialTime": -1,
+            "TrialEndKey": "x",
+            "ExitButton": true
+        }
+    ],
+    "GOAL DATA": "GOAL DATA--------------------*********------------------GOAL DATA",
+    "Goals": [
+         {
+            "Goal 1": "Env 3",
+            "Type": "2D",
+            "Object": "Navigation_Study/wizard_pinneaple.png",
+            "Sound": "collect_points",
+            "Color": "ffffff",
+            "Position": [-80.18623, 2, -26.14938],
+            "Scale": [2.8, 2.8, 2.8]
+        },
+        {
+            "Goal 2": "Env 3",
+            "Type": "2D",
+            "Object": "Navigation_Study/wizard_grape.png",
+            "Sound": "collect_points",
+            "Color": "ffffff",
+            "Position": [18.92863, 2, -52.57472],
+            "Scale": [2.8, 2.8, 2.8]
+        },
+        {
+            "Goal 3": "Env 3",
+            "Type": "2D",
+            "Object": "Navigation_Study/wizard_strawberry.png",
+            "Sound": "collect_points",
+            "Color": "ffffff",
+            "Position": [18.77911, 2, 66.12601],
+            "Scale": [2.8, 2.8, 2.8]
+        },
+        {
+            "Goal 4": "Env 3",
+            "Type": "2D",
+            "Object": "Navigation_Study/wizard_banana.png",
+            "Sound": "collect_points",
+            "Color": "ffffff",
+            "Position": [-15.71602, 2, 82.75858],
+            "Scale": [2.8, 2.8, 2.8]
+        }
+    ],
+    "LANDMARK DATA": "LANDMARK DATA----------*********------------------LANDMARK DATA",
+    "Landmarks": [],
+
+    "Enclosure DATA": "Enclosure DATA--------------------*********------------------Enclosure DATA",
+    "Enclosures": [
+        {
+            "Enclosure 1": "Enclosure for environment 3",
+            "Sides": 4,
+            "Radius": 90,
+            "WallHeight": 5,
+            "WallColor": "ffffffff",
+            "GroundTileSides": 4,
+            "GroundTileSize": 1.0,
+            "GroundColor": "ffffff00",
+            "Position": [0.23, 34.38]
+        }
+    ]
+}
